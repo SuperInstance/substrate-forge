@@ -1,0 +1,19 @@
+{
+  "name": "substrate-forge",
+  "version": "0.0.1",
+  "description": "The bellows of the future — toolchain for substrate-aware applications",
+  "main": "src/cli.ts",
+  "bin": {
+    "forge": "./src/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/tests/*.test.ts"
+  },
+  "keywords": ["substrate", "forge", "bellows", "toolchain", "deploy", "brewery"],
+  "license": "MIT",
+  "dependencies": {
+    "substrate-quantum": "^0.0.1",
+    "substrate-post-quantum": "^0.0.1"
+  }
+}
